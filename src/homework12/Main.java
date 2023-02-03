@@ -11,16 +11,21 @@ public class Main {
 
         Book warAndPiece = new Book("Война и мир", author1, 1869);
         Book winniePooh = new Book("Винни Пух", author2, 1926);
+        Book winniePooh2 = new Book("Винни Пух", author2, 1926);
 
 
 
-        System.out.println("Книга: " + warAndPiece.getBookTitle()+ " автор: " + author1.getAuthorName() + " " + author1.getAuthorSurname()+ " год издания: "+ warAndPiece.getPublicationDate());
+        /*System.out.println("Книга: " + warAndPiece.getBookTitle()+ " автор: " + author1.getAuthorName() + " " + author1.getAuthorSurname()+ " год издания: "+ warAndPiece.getPublicationDate());
         System.out.println("Книга: " + winniePooh.getBookTitle()+ " автор: " + winniePooh.getAuthor().getAuthorName() + " " + winniePooh.getAuthor().getAuthorSurname()+ " год издания: "+ winniePooh.getPublicationDate());
 
         warAndPiece.setPublicationDate(2020);
 
         System.out.println("Книга: " + warAndPiece.getBookTitle()+ " автор: " + author1.getAuthorName() + " " + author1.getAuthorSurname()+ " год издания: "+ warAndPiece.getPublicationDate());
-
+*/
+        System.out.println(warAndPiece);
+        System.out.println(winniePooh);
+        System.out.println("warAndPiece.equals(winniePooh) = " + warAndPiece.equals(winniePooh));
+        System.out.println("winniePooh2.equals(winniePooh) = " + winniePooh2.equals(winniePooh));
 
     }
 }
